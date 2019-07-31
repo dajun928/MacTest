@@ -4,7 +4,7 @@
 @version : 
 @file : test.py
 @time : 2019/07/28 20:58:21
-@func : 
+@func : test
 """
 import platform
 
