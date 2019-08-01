@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="813f0298158e4bc2b3b90e8a94f5fb6f" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_813f0298158e4bc2b3b90e8a94f5fb6f = echarts.init(
+            document.getElementById('813f0298158e4bc2b3b90e8a94f5fb6f'), 'light', {renderer: 'canvas'});
+        var option_813f0298158e4bc2b3b90e8a94f5fb6f = {
+    "series": [
+        {
+            "type": "line",
+            "name": "sum",
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": true,
+            "step": false,
+            "data": [
+                [
+                    "1990",
+                    100
+                ],
+                [
+                    "1994",
+                    380
+                ],
+                [
+                    "1998",
+                    289
+                ],
+                [
+                    "2000",
+                    460
+                ],
+                [
+                    "2004",
+                    150
+                ]
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "fontSize": 12
+            },
+            "lineStyle": {
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            }
+        },
+        {
+            "type": "line",
+            "name": "size",
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "step": true,
+            "data": [
+                [
+                    "1990",
+                    123
+                ],
+                [
+                    "1994",
+                    180
+                ],
+                [
+                    "1998",
+                    250
+                ],
+                [
+                    "2000",
+                    90
+                ],
+                [
+                    "2004",
+                    150
+                ]
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "fontSize": 12
+            },
+            "lineStyle": {
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "sum",
+                "size"
+            ],
+            "selected": {
+                "sum": true,
+                "size": true
+            },
+            "show": true
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "1990",
+                "1994",
+                "1998",
+                "2000",
+                "2004"
+            ]
+        }
+    ],
+    "title": {
+        "text": "Line"
+    },
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "show": true,
+                "title": "save as image",
+                "type": "png"
+            },
+            "restore": {
+                "show": true,
+                "title": "restore"
+            },
+            "dataView": {
+                "show": true,
+                "title": "data view",
+                "readOnly": false
+            },
+            "dataZoom": {
+                "show": true,
+                "title": {
+                    "zoom": "data zoom",
+                    "back": "data zoom restore"
+                }
+            }
+        }
+    }
+};
+        chart_813f0298158e4bc2b3b90e8a94f5fb6f.setOption(option_813f0298158e4bc2b3b90e8a94f5fb6f);
+    </script>
+</body>
+</html>
